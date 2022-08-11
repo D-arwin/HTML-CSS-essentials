@@ -23,17 +23,6 @@
     font-weight:400;
 } 
 
-@keyframes spin {
-    0%{
-        transform: translateX(0) rotate(-360deg);
-    }
-    50%{
-        transform: translateX(400px);
-    }
-}
-.tech:hover img{
-    animation: spin 5s;
-}
 :root{
 --white30: white;
 --white20: #A5A3A5;
@@ -332,16 +321,6 @@ blockquote p {
 ul{
     list-style-type: none;
 }
-.footer{
-    display: flex;
-    justify-content:center;
-    /* justify-items: center; */
-    color: white;
-    width: 100%;
-    height: 174px;
-    background: var(--gray10);
-    flex-direction: column;
-    align-items: center;
+.txtselected {
+    color: var(--white30);
 }
-
-
